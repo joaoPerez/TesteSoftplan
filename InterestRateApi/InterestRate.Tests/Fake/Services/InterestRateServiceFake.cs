@@ -2,7 +2,7 @@
 
 namespace InterestRate.Tests.Fake.Services
 {
-	public class IInterestRateServiceFake : IInterestRateService
+	public class InterestRateServiceFake : IInterestRateService
 	{
 		public float GetInterestRate()
 		{
