@@ -12,7 +12,7 @@ namespace InterestRate.Tests.UnitTests.Services
         [SetUp]
         public void Setup()
         {
-            _interestRateService = new IInterestRateServiceFake();
+            _interestRateService = new InterestRateServiceFake();
         }
 
 		[Test]
